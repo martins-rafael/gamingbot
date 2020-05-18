@@ -1,0 +1,153 @@
+body {
+  color: #f5f5f5;
+  background-color: #36393f;
+}
+
+#main {
+  margin: 0 auto;
+  max-width: 940px;
+  background-color: #2f3136;
+}
+
+nav.nav-center {
+  background-color: #2f3136;
+  opacity: 0.8;
+}
+
+nav.nav-center .hide-on-med-and-down {
+  text-align: center;
+}
+
+nav.nav-center .hide-on-med-and-down li {
+  display: inline;
+  float: none;
+}
+
+nav.nav-center .hide-on-med-and-down li a {
+  display: inline-block;
+}
+
+#nav-mobile {
+  background-color: #2f3136;
+}
+
+#nav-mobile li a{
+  color: #f5f5f5;
+}
+
+#index-banner{
+  position: relative;
+  height: 100vh;
+  min-height: 650px;
+}
+
+#index-banner * {
+  position: relative;
+  z-index: 1;
+}
+
+#index-banner::after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container .btn-large {
+  background-color: #7289da;
+
+}
+
+section.section-container {
+  padding: 40px 2% 0 2%;
+  min-height: 90%;
+}
+
+section.section-container:last-of-type {
+  padding-bottom: 80px ;
+}
+
+section.section-container .container {
+  margin-top: 80px;
+}
+
+section.section-container h2 {
+  text-align: center;
+}
+
+section.section-container .featured-img {
+  padding-top: 60%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+section.section-container .about-description h2 {
+  margin: 80px 0 40px;
+}
+
+.about-description p {
+  margin-top: 20px;
+}
+
+.about-description02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.small-img {
+  padding-top: 30%;
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.about-description02 p {
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 65%;
+}
+
+footer.page-footer {
+  background-color: #7289da;
+}
+
+@media screen and (max-width: 580px) {
+  .about-description02 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+  }
+
+  .small-img {
+      padding-top: 60%;
+      width: 60%;
+  }
+  
+  .about-description02 p {
+      margin-left: 0;
+      width: 100%;
+  }
+}
