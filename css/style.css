@@ -4,8 +4,6 @@ body {
 }
 
 #main {
-  margin: 0 auto;
-  max-width: 940px;
   background-color: #2f3136;
 }
 
@@ -151,6 +149,12 @@ footer.page-footer {
   -webkit-animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
   z-index: -1;
+}
+
+@media only screen and (max-width: 840px) {
+  .container {
+      width: 100%;
+  }
 }
 
 @media screen and (max-width: 580px) {
