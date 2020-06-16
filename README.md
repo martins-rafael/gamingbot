@@ -3,13 +3,13 @@
 </h1>
 <br>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/gamingbot?color=7289da">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/gamingbot?color=7289da&style=flat-square">
   <a href="https://opensource.org/licenses/MIT">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-7289da">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-7289da?style=flat-square">
   </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/martins-rafael/gamingbot?color=7289da">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/martins-rafael/gamingbot?color=7289da&style=flat-square">
   <a href="https://github.com/martins-rafael/gamingbot/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martins-rafael/gamingbot?color=7289da">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martins-rafael/gamingbot?color=7289da&style=flat-square">
   </a>
 </p>
 
