@@ -144,7 +144,12 @@ section.section-container .about-description h2 {
   width: 65%;
 }
 
+.curved {
+  display: block;
+}
+
 footer.page-footer {
+  margin-top: -5px;
   background-color: #7289da;
 }
 
